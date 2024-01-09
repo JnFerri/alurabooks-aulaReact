@@ -1,0 +1,10 @@
+
+.NavBar__icones{
+    display: flex;
+    align-items: center;
+}
+.NavBar__icone{
+    margin: 0 5px;
+    cursor: pointer;
+    list-style: none;
+}

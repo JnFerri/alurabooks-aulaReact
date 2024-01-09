@@ -1,13 +1,14 @@
 import Logo from "../Logo/Logo"
 import NavBar from "../NavBar/NavBar"
 import style from "./Header.css"
-function Banner(){
+
+function Header(){
     return(
-        <div className="banner">
-            <Logo></Logo>
-            <NavBar></NavBar>
-        </div>
+        <header className="header">
+            <Logo/>
+            <NavBar/>
+        </header>
     )
 }
 
-export default Banner
+export default Header

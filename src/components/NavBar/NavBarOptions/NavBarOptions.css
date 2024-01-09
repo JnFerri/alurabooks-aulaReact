@@ -1,0 +1,33 @@
+.NavBar{
+    display: flex;
+    align-items: center;
+}
+
+.NavBar__opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavBar__opcao{
+    margin: 0 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.NavBar__opcao p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.NavBar__icones{
+    display: flex;
+    align-items: center;
+}
+.NavBar__icone{
+    margin: 0 5px;
+    cursor: pointer;
+    list-style: none;
+}
