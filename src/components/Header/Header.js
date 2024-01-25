@@ -1,13 +1,22 @@
 import Logo from "../Logo/Logo"
 import NavBar from "../NavBar/NavBar"
-import style from "./Header.css"
+import styled from "styled-components"
+
+const HeaderContainer = styled.header`
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    background-color: #fff;
+    padding: 0 30px;
+`
 
 function Header(){
     return(
-        <header className="header">
+        <HeaderContainer>
             <Logo/>
             <NavBar/>
-        </header>
+        </HeaderContainer>
     )
 }
 
