@@ -2,6 +2,8 @@ import styled from "styled-components";
 import Input from "../Input/Input";
 import { useState } from "react";
 import { livros } from "./livrosPesquisa";
+import CardRecomenda from "../CardRecomenda/CardRecomenda.js";
+
 
 const PesquisaContainer = styled.section`
 display:flex;
@@ -60,7 +62,8 @@ function Pesquisa(){
                     <img src={livro.src}></img>
                 </livroContainer>
         )
-            )}
+        )}
+       
         </LivrosPesquisadosContainer>
         </PesquisaContainer>
     )

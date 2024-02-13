@@ -1,0 +1,1 @@
+Fazendo livros recomenda. ja foi criado o card recomenda, mas dentro do proprio livro recomenda criar um styled component de livros novos e pegar os dados conforme o json da alura dos 3 livros, somente aparecendo imagem, embaixo vai o card recomenda com imagemLivro conforme o codigo da alura.
