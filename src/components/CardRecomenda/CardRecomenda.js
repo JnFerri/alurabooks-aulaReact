@@ -6,7 +6,7 @@ import Imagem from "../Imagem/Imagem"
 
 const Card = styled.div`
 display:flex;
-backgorund-color:white;
+background-color:white;
 justify-content:space-between;
 padding:10px 10px;
 box-shadow:2px 2px 5px black;
@@ -30,7 +30,7 @@ function CardRecomenda({titulo,subtitulo,descricao,img}){
             <Paragrafo>{descricao}</Paragrafo>
         </div>
         <div>
-        <Imagem src={img} width="30%" padding="5px 5px"></Imagem>
+        <Imagem src={img} width="100%" padding="5px 5px"></Imagem>
         </div>
 
         </Card>
